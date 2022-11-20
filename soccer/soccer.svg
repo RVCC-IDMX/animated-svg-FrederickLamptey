@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Exercise</title>
-</head>
-<body>
-    <div class="svg-animation-container">
-    <svg width="857" height="550" viewBox="0 0 857 511" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="857" height="511" viewBox="0 0 857 511" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="soccer">
 <g id="background">
 <path id="bg-element" d="M856.85 439.772C854.181 391.36 815.284 351.889 766.912 348.581C744.614 347.014 722.46 353.202 704.202 366.098C685.944 378.993 672.704 397.803 666.726 419.341C665.552 419.299 664.379 419.252 663.195 419.252C642.259 419.256 621.887 426.038 605.127 438.584C588.368 451.13 576.12 468.766 570.218 488.852C556.345 482.757 540.843 481.434 526.138 485.092C511.433 488.75 498.357 497.181 488.956 509.065H791.229C828.365 509.065 858.433 478.306 856.919 441.201C856.9 440.725 856.877 440.249 856.85 439.772Z" fill="#E6E6E6"/>
@@ -54,6 +43,3 @@
 </g>
 </g>
 </svg>
-</div>
-</body>
-</html>

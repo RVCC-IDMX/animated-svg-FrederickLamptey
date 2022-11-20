@@ -1,47 +1,68 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+.svg-animation-container {
+    width: 800px;
+    box-shadow: 0;
+    padding: 24px;
+    margin: 0 auto;
+    border-radius: 20%;
+    height: 520px;
 }
 
-body {
-    text-align: center;
+.svg-animation-container svg {
+    width: 100%;
 }
 
-#chain-wheel {
-    animation: wheel 2s infinite linear;
-    transform-origin: center;
+#bg-element {
+    animation: changeColor 3s infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        fill: red;
+    }
+    100% {
+        fill: blue;
+    }
+}
+
+#ball {
+    animation: bounce 1s infinite ease-out alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
+#boot {
+    animation: movement 2s infinite alternate;
+    transform-origin: right;
     transform-box: fill-box;
 }
 
-#man-bike {
-    animation: bike 1s ease-in-out infinite;
-    transform-origin: bottom
-}
-
-@keyframes wheel {
-    from {
-        transform: rotateZ('0deg');
+@keyframes movement {
+    0% {
+        transform: rotate(10deg);
     }
-    to {
-        transform: rotateZ('360deg');
+    70% {
+        transform: rotate(-5deg);
     }
 }
 
-/* @keyframes bike {
-    from {
-        transform: rotateX('0deg');
-    }
-    to{
-        transform: rotateX('20deg')
-    }
-} */
+#right-hand {
+    animation: moveHand 2s infinite alternate;
+    transform-origin: right;
+    transform-box: fill-box;
+}
 
-@keyframes bike {
-     from {
-        transform: rotateX('0deg');
+@keyframes moveHand {
+    0% {
+        transform: rotate(-5deg);
     }
-    to{
-        transform: rotateX('20deg')
+    70% {
+        transform: rotate(10deg);
     }
 }
