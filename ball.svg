@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="923.151px" height="923.151px" viewBox="0 0 923.151 923.151" style="enable-background:new 0 0 923.151 923.151;"
 	 xml:space="preserve">
+<style>
+  path {
+	fill: #212121;
+  }
+
+  @mdeia (prefers-color-scheme: dark) {
+	path {
+		fill: white;
+		opacity: 0.5;
+	}
+  }
+</style>
 <g>
 	<g>
 		<path d="M28.543,898.924c-19.766,16.963-14.832,27.49,10.878,23.312c91.877-14.93,267.75-48.025,359.799-95.016
