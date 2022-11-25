@@ -9,7 +9,7 @@
 	fill: #212121;
   }
 
-  @mdeia (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
 	path {
 		fill: white;
 		opacity: 0.5;
